@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            text-transform: capitalize;
+        }
+        .content{
+            width: 30%;
+            height: auto;
+            margin: auto;
+        }
+        #logo{
+            display: block;
+            margin: auto;
+        }
+        #inputfield{
+            width: 70%;
+            display: block;
+            margin: auto;
+            padding: 5px;
+            border-radius: 30px;
+            border-style: solid;
+            border-color: rgba(201, 201, 201, 0.863);
+        }
+        .buttons{
+            padding: 5px 3px;
+            border-radius: 2px;
+            border: none;
+            background-color: rgb(192, 191, 191);
+        }
+        .buttons:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="images/image1.png" alt="photo" id="logo">
+        <form action="" method="post" class="inputs">
+            <div class="container">
+                <input type="text" name="input" id="inputfield"><br>
+                <center><input type="button" class="buttons" value="google search">
+                <input type="button" class="buttons" value="i'm feeling lucky"></center>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
